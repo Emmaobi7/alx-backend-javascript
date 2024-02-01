@@ -10,4 +10,3 @@ app.listen(port, function() {
   console.log(`API available on localhost port ${port}`)
 })
 
-module.exports = app;
