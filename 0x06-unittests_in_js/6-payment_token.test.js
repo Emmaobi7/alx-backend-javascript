@@ -3,7 +3,6 @@ const { expect } = require('chai')
 
 describe('getPaymentTokenFromAPI', function() {
   it('test a promise', function(done) {
-    this.timeout(0)
     getPaymentTokenFromAPI(true).then(function(result) {
       expect(result).to.deep.equal({data: 'Successful response from the API'})
       done();
