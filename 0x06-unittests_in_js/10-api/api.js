@@ -30,5 +30,3 @@ app.post('/login', function(req, res) {
 app.listen(port, function() {
   console.log(`API available on localhost port ${port}`)
 })
-
-module.exports = app;
